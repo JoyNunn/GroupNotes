@@ -9,7 +9,7 @@ rm ~/GroupNotes/**AWSR*
 #gdown is not native to Ubuntu. See here for documentation: https://pypi.org/project/gdown/
 gdown --format html 1AFKa6DA1g61Izm_Z9G2jOSPjlxMydTSr05jzgPFUax4
 #Rename the downloaded file to something without spaces in it, just to make our lives easier.
-mv **AWS*
+mv **AWS* AWSReStartLectureNotes.html
 #Add all of the files in the repository directory to the staging area to commit.
 #Ubuntu already has git by default, but I had to get the GitHub CLI to set up the repo from the command line.
 #GitHub CLI: https://cli.github.com/
