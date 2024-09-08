@@ -25,7 +25,7 @@ git commit -m "Daily notes update via script"
 #I needed to use the "-u" flag on the first push to set the upstream tracking reference. 
 #I'm honestly a little unclear on this point, but I think this allows my local branch to track changes in the remote branch.
 #It also allows me to use certain commands like "pull" and "push" without arguments because git knows what I'm referring to by the tracker.
-#I have a lot more to learn about this bit. The one thing I'm confident about: I don't need to use the -u flag anymore ssince I already did it. 
+#I have a lot more to learn about this bit. The one thing I'm confident about: I don't need to use the -u flag anymore since I already did it. 
 git push origin master
 #I've added this script to my cron jobs with the "crontab -e" command, so I don't have to remember to run it.
 #It automatically updates the document at 5 PM everyday without any input from me. 
