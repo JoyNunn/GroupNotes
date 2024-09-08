@@ -1,13 +1,13 @@
 #!/bin/bash
 #Remove the previous day's HTML files.
-rm **AWSR*
+rm ~/GroupNotes/**AWSR*
 #Download the latest version of the Group Notes from Google Docs in HTML format. The long string is the document id. 
 #The "format" flag is how we're downloading it in html instead of docx. 
 #The images in the document are linked to Google's CDN, so we don't have to worry about snagging them. It happens automatically.
 #gdown is not native to Ubuntu. See here for documentation: https://pypi.org/project/gdown/
 gdown --format html 1AFKa6DA1g61Izm_Z9G2jOSPjlxMydTSr05jzgPFUax4
 #Rename the downloaded file to something without spaces in it, just to make our lives easier.
-mv **AWS* AWSReStartLectureNotes.html
+mv ~/GroupNotes/**AWS* ~/GroupNotes/AWSReStartLectureNotes.html
 #Add all of the files in the repository directory to the staging area to commit.
 #Ubuntu already has git by default, but I had to get the GitHub CLI to set up the repo from the command line.
 #GitHub CLI: https://cli.github.com/
