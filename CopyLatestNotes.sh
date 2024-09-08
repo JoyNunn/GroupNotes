@@ -11,11 +11,12 @@ mv **AWS* AWSReStartLectureNotes.html
 #Add all of the files in the repository directory to the staging area to commit.
 #Ubuntu already has git by default, but I had to get the GitHub CLI to set up the repo from the command line.
 #GitHub CLI: https://cli.github.com/
-git add **
+#The script won't work with cron unless I specify the directory with the -C flag.
+git -C ~/GroupNotes add **
 #Commit the changes to the local repository. 
 #-m adds a message explaining the commit.
 #I could probably add more info here but GitHub already has what we need.
-git commit -m "Daily notes update via script"
+git -C ~/GroupNotes commit -m "Daily notes update via script"
 #Push the changes to the project page on GitHub.
 #"git push" is the command to push the commit online to Github.
 #"origin" is a remote repository. 
@@ -26,6 +27,6 @@ git commit -m "Daily notes update via script"
 #I'm honestly a little unclear on this point, but I think this allows my local branch to track changes in the remote branch.
 #It also allows me to use certain commands like "pull" and "push" without arguments because git knows what I'm referring to by the tracker.
 #I have a lot more to learn about this bit. The one thing I'm confident about: I don't need to use the -u flag anymore since I already did it. 
-git push origin master
+git -C ~/GroupNotes push origin master
 #I've added this script to my cron jobs with the "crontab -e" command, so I don't have to remember to run it.
 #It automatically updates the document at 4 PM everyday without any input from me. 
