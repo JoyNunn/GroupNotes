@@ -20,7 +20,7 @@ git commit -m "Daily notes update via script"
 #"git push" is the command to push the commit online to Github.
 #"origin" is a remote repository. 
 #I set up the specific repository earlier on the command line, so git knows that I want it to go to the GroupNotes repo.
-#$> git remote add origin https://github.com/JoyNunn/GroupNotes.git
+#joy:GroupNotes/ (master) $ git remote add origin https://github.com/JoyNunn/GroupNotes.git
 #"master" is the branch I want to push it to. 
 #I needed to use the "-u" flag on the first push to set the upstream tracking reference. 
 #I'm honestly a little unclear on this point, but I think this allows my local branch to track changes in the remote branch.
