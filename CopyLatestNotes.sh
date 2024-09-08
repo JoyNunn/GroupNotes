@@ -2,7 +2,7 @@
 #Go to the repository directory.
 cd ~/GroupNotes
 #Remove the previous day's HTML files.
-rm **AWSR*
+rm ~/GroupNotes/**AWSR*
 #Download the latest version of the Group Notes from Google Docs in HTML format. The long string is the document id. 
 #The "format" flag is how we're downloading it in html instead of docx. 
 #The images in the document are linked to Google's CDN, so we don't have to worry about snagging them. It happens automatically.
