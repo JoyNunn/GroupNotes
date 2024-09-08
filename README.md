@@ -4,5 +4,5 @@ The HTML tab uses about 300MB less memory than having Google Docs open.<br><br>
 For access to edit the original document, you must be a student with the RTT 38 cohort. Contact Gabriel via Slack for access. <br><br>
 All are welcome to share group notes, and everyone is highly encouraged to participate in adding to them. 
 <br><br>
-This mirror is automatically updated at 4 PM every day. You are free to fork this project as a basis for your own personal notes or copy as you see fit.
+This mirror is automatically updated at 4 PM EST every day. You are free to fork this project as a basis for your own personal notes or copy as you see fit.
 
