@@ -28,4 +28,4 @@ git commit -m "Daily notes update via script"
 #I have a lot more to learn about this bit. The one thing I'm confident about: I don't need to use the -u flag anymore since I already did it. 
 git push origin master
 #I've added this script to my cron jobs with the "crontab -e" command, so I don't have to remember to run it.
-#It automatically updates the document at 5 PM everyday without any input from me. 
+#It automatically updates the document at 4 PM everyday without any input from me. 
