@@ -12,7 +12,9 @@ mv **AWS* AWSReStartLectureNotes.html
 #Ubuntu already has git by default, but I had to get the GitHub CLI to set up the repo from the command line.
 #GitHub CLI: https://cli.github.com/
 git add **
-#Commit the changes to the local repository. I could probably add more info here but GitHub already has what we need.
+#Commit the changes to the local repository. 
+#-m adds a message explaining the commit.
+#I could probably add more info here but GitHub already has what we need.
 git commit -m "Daily notes update via script"
 #Push the changes to the project page on GitHub.
 #"git push" is the command to push the commit online to Github.
