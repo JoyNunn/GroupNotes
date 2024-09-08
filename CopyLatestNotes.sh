@@ -17,7 +17,8 @@ git commit -m "Daily notes update via script"
 #Push the changes to the project page on GitHub.
 #"git push" is the command to push the commit online to Github.
 #"origin" is a remote repository. 
-#I set up the specific repository earlier on the command line, so git knows that I want it to go to the GroupNotes repo.#"master" is the branch I want to push it to. In this case, we're pushing to master. 
+#I set up the specific repository earlier on the command line, so git knows that I want it to go to the GroupNotes repo.
+#"master" is the branch I want to push it to. 
 git push origin master
-#From here, this script gets added to my cron jobs with the "crontab -e" command. 
+#I've added this script to my cron jobs with the "crontab -e" command, so I don't have to remember to run it.
 #It automatically updates the document at 5 PM everyday without any input from me. 
